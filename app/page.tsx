@@ -1,5 +1,6 @@
 import AnimationComponent from "@/components/AnimationComponent";
 import First from "@/components/First";
+import Footer from "@/components/Footer";
 import Governance from "@/components/Governance";
 import Navbar from "@/components/Navbar";
 import NeverPayInterest from "@/components/NeverPayInterest";
@@ -27,6 +28,7 @@ export default function Home() {
       <Stats />
       <Governance />
       <Security />
+      <Footer />
     </div>
   );
 }
