@@ -112,7 +112,7 @@ const Navbar: React.FC = () => {
               >
                 Stake
               </a>
-              {renderDropdown(isOpen2, Navbarcomponents)}{" "}
+              {renderDropdown(isOpen2, Navbarcomponents2)}{" "}
             </div>
 
             <div

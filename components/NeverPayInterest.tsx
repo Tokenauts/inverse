@@ -23,12 +23,20 @@ const NeverPayInterest = () => {
                     </p>
                   </div>
                   <div className="flex justify-center gap-10 mt-10 lg:justify-start">
-                    <button className="bg-white  text-xs rounded-full py-2 px-6">
-                      Open App
-                    </button>
-                    <button className=" text-xs bg-white rounded-full py-2 px-6">
+                    <div className=" sm:flex sm:items-center">
+                      <a
+                        href="#"
+                        className="text-xs font-semibold border px-4 py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-white "
+                      >
+                        Open App
+                      </a>
+                    </div>
+                    <a
+                      href="#"
+                      className="text-xs font-semibold border  bg-purple-200 px-4 py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-black "
+                    >
                       Learn more
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>

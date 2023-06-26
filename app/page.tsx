@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import NeverPayInterest from "@/components/NeverPayInterest";
 import OurProducts from "@/components/OurProducts";
 import SmarterCollateral from "@/components/SmarterCollateral";
+import SwitchFeature from "@/components/SwitchFeature";
 export default function Home() {
   return (
     <div className="">
@@ -17,6 +18,7 @@ export default function Home() {
       <NeverPayInterest />
       <SmarterCollateral />
       <AnimationComponent />
+      <SwitchFeature />
     </div>
   );
 }
