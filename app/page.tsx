@@ -5,6 +5,7 @@ import NeverPayInterest from "@/components/NeverPayInterest";
 import OurProducts from "@/components/OurProducts";
 import SmarterCollateral from "@/components/SmarterCollateral";
 import SwitchFeature from "@/components/SwitchFeature";
+import Bug from "@/components/bug";
 export default function Home() {
   return (
     <div className="">
@@ -19,6 +20,7 @@ export default function Home() {
       <SmarterCollateral />
       <AnimationComponent />
       <SwitchFeature />
+      <Bug />
     </div>
   );
 }

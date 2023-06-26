@@ -68,9 +68,9 @@ const Navbar: React.FC = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            transition={{ duration: 0.3, ease: "easeIn" }}
+            transition={{ duration: 0.2, ease: "easeIn" }}
           >
-            <div className="absolute left-0 bg-gray-800 z-50 flex rounded-xl ">
+            <div className="absolute left-0 bg-gray-800 z-50 flex rounded-xl mt-5 ">
               <Component />
             </div>
           </motion.div>
@@ -80,9 +80,9 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className="z-50 shadow p-4 text-white">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between py-4 ">
+    <div className="relative items-center w-full   mx-auto md:px-12 lg:px-16 max-w-7xl text-white">
+      <div className="container mx-auto ">
+        <div className="flex items-center justify-between py-1 ">
           <div>
             <img src="logo.svg" className="sm:w-60 lg:w-72 w-36" />
           </div>

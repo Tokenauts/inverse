@@ -13,7 +13,7 @@ const NeverPayInterest = () => {
                     <p className="text-2xl font-medium tracking-tight text-white sm:text-4xl">
                       Never Pay interest Again
                     </p>
-                    <p className="max-w-xl mt-4 text-xl tracking-tight text-gray-600">
+                    <p className="max-w-xl mt-4 text-2xl tracking-tight text-gray-600">
                       High-volatility interest rates don't work for long-term
                       borrowers.
                     </p>

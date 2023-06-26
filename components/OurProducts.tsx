@@ -23,17 +23,9 @@ const OurProducts = () => {
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Inverse Governance Token
               </p>
-              <p className="mt-3 text-base text-gray-500">
-                Your design portfolio website shouldn’t just be a portfolio, it
-                should also be a sales tool.
-              </p>
-              <div className="flex gap-3 mt-10 justify-left">
-                <a
-                  className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                  href="#"
-                >
-                  <span>Read more</span>
-                </a>{" "}
+
+              <div className="text-white text-center items-center mt-2">
+                Price : $39.45
               </div>
             </figure>
             <figure>
@@ -48,17 +40,9 @@ const OurProducts = () => {
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Dola stablecoin
               </p>
-              <p className="mt-3 text-base text-gray-500">
-                Your design portfolio website shouldn’t just be a portfolio, it
-                should also be a sales tool.
-              </p>
-              <div className="flex gap-3 mt-10 justify-left">
-                <a
-                  className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                  href="#"
-                >
-                  <span>Read more</span>
-                </a>{" "}
+
+              <div className="text-white text-center items-center mt-2">
+                Price : $1.00
               </div>
             </figure>
             <figure>
@@ -73,17 +57,9 @@ const OurProducts = () => {
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Dola Borrowing Right
               </p>
-              <p className="mt-3 text-base text-gray-500">
-                Your design portfolio website shouldn’t just be a portfolio, it
-                should also be a sales tool.
-              </p>
-              <div className="flex gap-3 mt-10 justify-left">
-                <a
-                  className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                  href="#"
-                >
-                  <span>Read more</span>
-                </a>{" "}
+
+              <div className="text-white text-center items-center mt-2">
+                Price : $0.11
               </div>
             </figure>
           </div>

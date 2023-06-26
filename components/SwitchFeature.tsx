@@ -13,14 +13,14 @@ const SwitchFeature: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="relative items-center w-full px-5 lg:py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
       <h1 className="lg:text-7xl text-white font-black text-4xl  ">
-        Our Ecosystem{" "}
+        Our Ecosystem
       </h1>
-      <div className="inline-flex bg-purple-200 items-center mt-10  rounded-full cursor-pointer dark:text-gray-800 p-2">
+      <div className="inline-flex bg-purple-200 items-center mt-10  rounded-3xl cursor-pointer dark:text-gray-800  mx-auto  lg:px-2  p-2 lg:p-1">
         <span
           onClick={() => handleTabClick("DEX")}
-          className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs  ${
+          className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs   ${
             selectedTab === "DEX"
               ? "bg-purple-500 text-white font-light rounded-full text-xs lg:text-base"
               : "dark:bg-gray-300"
