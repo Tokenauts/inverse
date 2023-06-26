@@ -14,7 +14,9 @@ const SwitchFeature: React.FC = () => {
 
   return (
     <div>
-      <h1 className="text-7xl text-white font-black ">Our Ecosystem </h1>
+      <h1 className="lg:text-7xl text-white font-black text-4xl  ">
+        Our Ecosystem{" "}
+      </h1>
       <div className="inline-flex bg-purple-200 items-center mt-10  rounded-full cursor-pointer dark:text-gray-800 p-2">
         <span
           onClick={() => handleTabClick("DEX")}

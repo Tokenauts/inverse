@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
           <div>
             <img src="logo.svg" className="sm:w-60 lg:w-72 w-36" />
           </div>
-          <div className="hidden sm:hidden lg:flex md:hidden sm:items-center">
+          <div className="hidden sm:hidden lg:flex md:hidden sm:items-center ">
             <div
               className="relative"
               onMouseEnter={() => setIsOpen1(true)}
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
             >
               <a
                 href="#"
-                className="text-white text-sm font-semibold hover:text-purple-600 mr-4"
+                className="text-white text-sm font-semibold hover:text-purple-600 mr-4 "
               >
                 Borrow
               </a>

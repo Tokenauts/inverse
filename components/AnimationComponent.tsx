@@ -16,7 +16,7 @@ const AnimationComponent = () => {
         <section className="flex items-center w-full">
           <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 max-w-8xl">
             <div className="grid grid-cols-1 gap-16 py-12 md:grid-cols-3 sm:grid-cols-1">
-              <figure className="bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-lg p-6">
+              <figure className="bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100  rounded-3xl p-6">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
                   Borrow
@@ -32,7 +32,7 @@ const AnimationComponent = () => {
                   Learn more
                 </a>
               </figure>
-              <figure className="   bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-lg p-6">
+              <figure className="   bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-3xl p-6">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
                   Earn
@@ -48,7 +48,7 @@ const AnimationComponent = () => {
                   Learn more
                 </a>
               </figure>
-              <figure className="  bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-lg p-6">
+              <figure className="  bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-3xl p-6">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center   ">
                   Real Yield
