@@ -21,7 +21,7 @@ const OurProducts = () => {
 
           <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-3">
             <figure onMouseEnter={() => handleMouseEnter(videoRef1)}>
-              <video ref={videoRef1} src="/inv.mp4" muted />
+              <video ref={videoRef1} src="/INV.mp4" muted />
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Inverse Governance Token
@@ -32,7 +32,7 @@ const OurProducts = () => {
               </div>
             </figure>
             <figure onMouseEnter={() => handleMouseEnter(videoRef2)}>
-              <video ref={videoRef2} src="/dola.mp4" muted />
+              <video ref={videoRef2} src="/DOLA.mp4" muted />
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Dola stablecoin
@@ -43,7 +43,7 @@ const OurProducts = () => {
               </div>
             </figure>
             <figure onMouseEnter={() => handleMouseEnter(videoRef3)}>
-              <video ref={videoRef3} src="/dbr.mp4" muted />
+              <video ref={videoRef3} src="/DBR.mp4" muted />
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Dola Borrowing Right
