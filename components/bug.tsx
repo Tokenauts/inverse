@@ -5,11 +5,12 @@ const bug = () => {
     <div>
       <section className="">
         <div className="relative items-center w-full px-5  mx-auto mb-12 md:px-12 lg:px-16 max-w-4xl">
-          <img
+          {/* <img
             className="w-full pt-6"
             src="https://d33wubrfki0l68.cloudfront.net/41cf01e1154fd7ef6121a544cedd9ba7be6b63ba/e0ab4/images/placeholders/rectangle1.svg"
             alt=""
-          />
+          /> */}
+          <video src="/Home.mp4" autoPlay loop className="w-full pt-6" />
         </div>
         <div>
           <p className="max-w-xl mx-auto mt-4 text-lg tracking-tight text-gray-600">

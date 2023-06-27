@@ -23,50 +23,51 @@ const SwitchFeature: React.FC = () => {
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs   ${
             selectedTab === "DEX"
               ? "bg-purple-500 text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-gray-300"
+              : "dark:bg-purple-200"
           }`}
         >
           DEX
+        </span>
+
+        <span
+          onClick={() => handleTabClick("CEX")}
+          className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs  ${
+            selectedTab === "CEX"
+              ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
+              : "dark:bg-purple-200"
+          }`}
+        >
+          CEX
         </span>
         <span
           onClick={() => handleTabClick("YIELD")}
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs ${
             selectedTab === "YIELD"
               ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-gray-300"
+              : "dark:bg-purple-200"
           }`}
         >
-          YIELD
-        </span>
-        <span
-          onClick={() => handleTabClick("CEX")}
-          className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs  ${
-            selectedTab === "CEX"
-              ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-gray-300"
-          }`}
-        >
-          CEX
+          Yield
         </span>
         <span
           onClick={() => handleTabClick("INTERFACE")}
           className={`lg:px-4 lg:py-2 rounded-full px-2  text-xs ${
             selectedTab === "INTERFACE"
               ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-gray-300"
+              : "dark:bg-purple-200"
           }`}
         >
-          INTERFACE
+          Interface
         </span>
         <span
           onClick={() => handleTabClick("WALLETS")}
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs ${
             selectedTab === "WALLETS"
               ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-gray-300"
+              : "dark:bg-purple-200"
           }`}
         >
-          WALLETS
+          Wallets
         </span>
       </div>
       {selectedTab === "DEX" && (

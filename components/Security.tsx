@@ -11,7 +11,7 @@ const Security = () => {
               <div className="mx-auto lg:max-w-7xl">
                 <ul
                   role="list"
-                  className="grid grid-cols-2 gap-4 list-none lg:grid-cols-1 lg:gap-6"
+                  className="grid grid-cols-1 gap-4 list-none lg:grid-cols-1 lg:gap-6"
                 >
                   <li>
                     <div>
@@ -60,7 +60,7 @@ const Security = () => {
               <div className="mx-auto lg:max-w-7xl">
                 <ul
                   role="list"
-                  className="grid grid-cols-2 gap-4 list-none lg:grid-cols-1 lg:gap-6"
+                  className="grid grid-cols-1 gap-4 list-none lg:grid-cols-1 lg:gap-6"
                 >
                   <li>
                     <div>

@@ -12,7 +12,7 @@ const stats = () => {
             Inverse Finance DAO operates unmatched transparency into its
             operation and governance
           </div>
-          <div className="grid w-full grid-cols-1 mx-auto lg:grid-cols-5">
+          <div className="grid w-full grid-cols-1 mx-auto lg:grid-cols-3 gap-7">
             <div className="max-w-md p-4 mx-auto border rounded-xl w-44">
               <div className="flex items-center justify-center  text-white rounded-xl font-black">
                 $52.78M
@@ -29,14 +29,14 @@ const stats = () => {
                 DOLA 24h Vol.
               </p>
             </div>
-            <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
+            {/* <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
               <div className="flex items-center justify-center  text-white  rounded-xl font-black">
                 $39.32
               </div>
               <p className="mt-5 text-base font-light leading-6 text-white">
                 INV price
               </p>
-            </div>
+            </div> */}
             <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
               <div className="flex items-center justify-center  text-white rounded-xl font-black">
                 $52.09M
@@ -45,14 +45,14 @@ const stats = () => {
                 TVL
               </p>
             </div>
-            <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
+            {/* <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
               <div className="flex items-center justify-center  text-white rounded-xl font-black">
                 $0.11
               </div>
               <p className="mt-5 text-base font-light leading-6 text-white">
                 DBR price
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
