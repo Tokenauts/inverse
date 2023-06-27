@@ -8,28 +8,28 @@ const stats = () => {
           <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-2">
             <figure>
               <div>
-                <h1 className="text-4xl text-white font-black mt-24 text-left">
+                <h1 className="lg:text-4xl text-2xl text-white font-black mt-24 text-left">
                   The Stats
                 </h1>
-                <h2 className="text-xl text-white font-light mt-4 text-left">
+                <h2 className="lg:text-xl text-base text-white font-light mt-4 text-left">
                   Inverse Finance DAO operates unmatched transparency into its
                   operation and governance
                 </h2>
               </div>
             </figure>
-            <figure className=" h-96 bg-gray-500 rounded-xl">
+            <figure className=" h-96 bg-gray-500 rounded-xl  hover:bg-gray-800 ">
               <h1 className="text-4xl text-white font-black mt-40 ">$53.16M</h1>
               <h2 className="text-xl text-white font-light mt-4 ">
                 Total Value Locked
               </h2>
             </figure>
-            <figure className=" h-96 bg-gray-500 rounded-xl">
+            <figure className=" h-96 bg-gray-500 rounded-xl  hover:bg-gray-800 ">
               <h1 className="text-4xl text-white font-black mt-40 ">$52.78M</h1>
               <h2 className="text-xl text-white font-light mt-4 ">
                 DOLA Circulation
               </h2>
             </figure>
-            <figure className=" h-96 bg-gray-500 rounded-xl">
+            <figure className=" h-96 bg-gray-500 rounded-xl   hover:bg-gray-800 ">
               <h1 className="text-4xl text-white font-black mt-40 ">$1.56M</h1>
               <h2 className="text-xl text-white font-light mt-4 ">
                 DOLA 24h Volume
