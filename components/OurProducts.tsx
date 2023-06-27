@@ -23,7 +23,7 @@ const OurProducts = () => {
             <figure onMouseEnter={() => handleMouseEnter(videoRef1)}>
               <video
                 ref={videoRef1}
-                src="/INV.mp4"
+                src="/inv.mp4"
                 width="1310"
                 height="873"
                 muted
@@ -40,7 +40,7 @@ const OurProducts = () => {
             <figure onMouseEnter={() => handleMouseEnter(videoRef2)}>
               <video
                 ref={videoRef2}
-                src="/DOLA.mp4"
+                src="/dola.mp4"
                 width="1310"
                 height="873"
                 muted
@@ -57,7 +57,7 @@ const OurProducts = () => {
             <figure onMouseEnter={() => handleMouseEnter(videoRef3)}>
               <video
                 ref={videoRef3}
-                src="/inv.mp4"
+                src="/dbr.mp4"
                 width="1310"
                 height="873"
                 muted
