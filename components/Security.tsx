@@ -42,12 +42,12 @@ const Security = () => {
         </div>
         <div className="shadow-lg  bg-gray-800  text-green-500 text-lg font-bold text-center p-10 rounded-lg ">
           <div>
-            <h1 className="text-left text-3xl">2 </h1>
+            <h1 className="text-left text-5xl">2 </h1>
             <h1 className="text-left text-3xl">Full Audits </h1>
           </div>
         </div>
         <div className="shadow-lg  bg-gray-800 text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-2 ">
-          <h1 className="text-left text-3xl">87% </h1>
+          <h1 className="text-left text-5xl">87% </h1>
           <h1 className="text-left text-3xl">Defi safety score </h1>
         </div>
       </div>

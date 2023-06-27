@@ -28,7 +28,7 @@ const Governance = () => {
                 <img
                   className="object-cover object-center w-full mx-auto lg:ml-auto p-16 "
                   alt="hero"
-                  src="https://d33wubrfki0l68.cloudfront.net/6163c5a4083dab2763aa0f2aa9e6bded23630eb7/935d6/images/placeholders/square2.svg"
+                  src="DBR.svg"
                 />
               </div>
             </div>

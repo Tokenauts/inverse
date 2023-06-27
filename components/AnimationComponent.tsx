@@ -21,7 +21,7 @@ const AnimationComponent = () => {
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
                   Borrow
                 </p>
-                <p className="mt-3 text-sm text-gray-300 text-start mb-16">
+                <p className="mt-3 text-sm text-gray-300 text-center mb-16">
                   Borrow DOLA for a fixed-rate for an unlimited duration with
                   DOLA Borrowing Rights.
                 </p>
@@ -37,7 +37,7 @@ const AnimationComponent = () => {
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
                   Earn
                 </p>
-                <p className="mt-3 text-sm text-gray-300 text-start mb-16">
+                <p className="mt-3 text-sm text-gray-300 text-center mb-16">
                   Earn attractive returns when you provide liquidity to a
                   trading pair on Curve, Convex, Balancer and others.
                 </p>
@@ -53,7 +53,7 @@ const AnimationComponent = () => {
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center   ">
                   Real Yield
                 </p>
-                <p className="mt-3 text-sm text-gray-300  mb-10 text-start">
+                <p className="mt-3 text-sm text-gray-300  mb-10 text-center">
                   Buy INV and stake on FiRM to earn DBR real yield, you direclty
                   benefit from FiRM's success. Participate in Governance.
                 </p>
