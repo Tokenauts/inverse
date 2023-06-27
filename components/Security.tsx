@@ -4,7 +4,7 @@ const Security = () => {
   return (
     <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-16 max-w-7xl ">
       <div className="grid grid-rows-1 lg:grid-rows-3 gap-5 ">
-        <div className=" shadow-lg text-white text-lg font-bold text-center p-2 rounded-lg  h-44 ">
+        <div className=" shadow-lg text-white text-lg font-bold text-center p-2 rounded-lg   lg:h-44 h-46 ">
           <div>
             <h1 className="text-center text-3xl  lg:text-3xl mb-16 md:text-left sm:text-left">
               Meet our Security Partners{" "}
