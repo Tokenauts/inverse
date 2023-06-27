@@ -12,7 +12,7 @@ const OurProducts = () => {
   };
   return (
     <div>
-      <section className="flex items-center w-screen ">
+      <section className="flex items-center w-full ">
         <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 max-w-4xl">
           <div className="text-white text-left text-4xl font-light  ">Our </div>
           <div className="text-white text-left text-6xl font-black">
