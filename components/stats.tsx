@@ -3,56 +3,38 @@ import React from "react";
 const stats = () => {
   return (
     <div>
-      <section>
-        <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 max-w-6xl">
-          <div className="text-white text-4xl text-left font-black mb-10">
-            Stats
-          </div>
-          <div className="text-white text-xl text-left font-medium mb-10">
-            Inverse Finance DAO operates unmatched transparency into its
-            operation and governance
-          </div>
-          <div className="grid w-full grid-cols-1 mx-auto lg:grid-cols-3 gap-7">
-            <div className="max-w-md p-4 mx-auto border rounded-xl w-44">
-              <div className="flex items-center justify-center  text-white rounded-xl font-black">
-                $52.78M
+      <section className="flex items-center w-full mt-24 ">
+        <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-5xl">
+          <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-2">
+            <figure>
+              <div>
+                <h1 className="text-4xl text-white font-black mt-24 text-left">
+                  The Stats
+                </h1>
+                <h2 className="text-xl text-white font-light mt-4 text-left">
+                  Inverse Finance DAO operates unmatched transparency into its
+                  operation and governance
+                </h2>
               </div>
-              <p className="mt-5 text-base font-light leading-6 text-white">
+            </figure>
+            <figure className=" h-96 bg-gray-500 rounded-xl">
+              <h1 className="text-4xl text-white font-black mt-40 ">$53.16M</h1>
+              <h2 className="text-xl text-white font-light mt-4 ">
+                Total Value Locked
+              </h2>
+            </figure>
+            <figure className=" h-96 bg-gray-500 rounded-xl">
+              <h1 className="text-4xl text-white font-black mt-40 ">$52.78M</h1>
+              <h2 className="text-xl text-white font-light mt-4 ">
                 DOLA Circulation
-              </p>
-            </div>
-            <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
-              <div className="flex items-center justify-center text-white  rounded-xl font-black">
-                $1.14M
-              </div>
-              <p className="mt-5 text-base font-light leading-6 text-white">
-                DOLA 24h Vol.
-              </p>
-            </div>
-            {/* <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
-              <div className="flex items-center justify-center  text-white  rounded-xl font-black">
-                $39.32
-              </div>
-              <p className="mt-5 text-base font-light leading-6 text-white">
-                INV price
-              </p>
-            </div> */}
-            <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
-              <div className="flex items-center justify-center  text-white rounded-xl font-black">
-                $52.09M
-              </div>
-              <p className="mt-5 text-base font-light leading-6 text-white">
-                TVL
-              </p>
-            </div>
-            {/* <div className="max-w-md p-6 mx-auto border rounded-xl w-44">
-              <div className="flex items-center justify-center  text-white rounded-xl font-black">
-                $0.11
-              </div>
-              <p className="mt-5 text-base font-light leading-6 text-white">
-                DBR price
-              </p>
-            </div> */}
+              </h2>
+            </figure>
+            <figure className=" h-96 bg-gray-500 rounded-xl">
+              <h1 className="text-4xl text-white font-black mt-40 ">$1.56M</h1>
+              <h2 className="text-xl text-white font-light mt-4 ">
+                DOLA 24h Volume
+              </h2>
+            </figure>
           </div>
         </div>
       </section>
