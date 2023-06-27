@@ -2,105 +2,55 @@ import React from "react";
 
 const Security = () => {
   return (
-    <div>
-      <section>
-        <div className="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
-          <div className=" text-white text-center text-4xl mb-8">Security</div>
-          <div className="grid items-center grid-cols-1 gap-12 text-left lg:gap-24 md:grid-cols-2 lg:grid-cols-3">
-            <div className="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
-              <div className="mx-auto lg:max-w-7xl">
-                <ul
-                  role="list"
-                  className="grid grid-cols-1 gap-4 list-none lg:grid-cols-1 lg:gap-6"
-                >
-                  <li>
-                    <div>
-                      <p className="mt-5 text-lg font-medium leading-6 text-black">
-                        Easy onboarding
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                      Plus, our platform is constantly evolving to meet the
-                      changing needs.
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p className="mt-5 text-lg font-medium leading-6 text-black">
-                        Customer support
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                      Plus, our platform is constantly evolving to meet the
-                      changing needs.
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p className="mt-5 text-lg font-medium leading-6 text-black">
-                        Easy onboarding
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                      Plus, our platform is constantly evolving to meet the
-                      changing needs.
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="order-first block w-full mt-12 aspect-square lg:mt-0">
-              <img
-                className="object-cover object-center w-full mx-auto bg-gray-300 border lg:ml-auto"
-                alt="hero"
-                src="https://d33wubrfki0l68.cloudfront.net/6163c5a4083dab2763aa0f2aa9e6bded23630eb7/935d6/images/placeholders/square2.svg"
-              />
-            </div>
-            <div className="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
-              <div className="mx-auto lg:max-w-7xl">
-                <ul
-                  role="list"
-                  className="grid grid-cols-1 gap-4 list-none lg:grid-cols-1 lg:gap-6"
-                >
-                  <li>
-                    <div>
-                      <p className="mt-5 text-lg font-medium leading-6 text-black">
-                        Easy onboarding
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                      Plus, our platform is constantly evolving to meet the
-                      changing needs.
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p className="mt-5 text-lg font-medium leading-6 text-black">
-                        Easy onboarding
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                      Plus, our platform is constantly evolving to meet the
-                      changing needs.
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p className="mt-5 text-lg font-medium leading-6 text-black">
-                        Customer support
-                      </p>
-                    </div>
-                    <div className="mt-2 text-base text-gray-500">
-                      Plus, our platform is constantly evolving to meet the
-                      changing needs.
-                    </div>
-                  </li>
-                </ul>
-              </div>
+    <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-16 max-w-7xl ">
+      <div className="grid grid-rows-1 lg:grid-rows-3 gap-5 ">
+        <div className=" shadow-lg text-white text-lg font-bold text-center p-2 rounded-lg  h-44 ">
+          <div>
+            <h1 className="text-center text-3xl  lg:text-3xl mb-16 md:text-left sm:text-left">
+              Meet our Security Partners{" "}
+            </h1>
+            <div className=" sm:flex sm:items-center">
+              <a
+                href="#"
+                className="text-xs font-semibold border px-4 py-2 rounded-lg hover:text-purple-600 hover:border-purple-600  "
+              >
+                Check Audits
+              </a>
             </div>
           </div>
         </div>
-      </section>{" "}
+        <div className="shadow-lg bg-gray-200  text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-2 ">
+          2
+        </div>
+
+        <div className="  shadow-lg   text-lg font-bold text-center p-1 rounded-lg  lg:col-span-2 mt-4  ">
+          <div>
+            <h1 className=" text-xl font-medium text-left text-white">
+              Designed from the ground up with security in mind and now backing
+              it up with third party security professionals.{" "}
+            </h1>
+            <h1 className=" text-base font-thin text-left text-gray-200">
+              We know the importance of security, especially for new lending
+              protocols. Read our audit reports or work with us as we expand our
+              third party security efforts.
+            </h1>
+          </div>
+        </div>
+
+        <div className="shadow-lg  bg-gray-200 text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-3">
+          5
+        </div>
+        <div className="shadow-lg  bg-gray-800  text-green-500 text-lg font-bold text-center p-10 rounded-lg ">
+          <div>
+            <h1 className="text-left text-3xl">2 </h1>
+            <h1 className="text-left text-3xl">Full Audits </h1>
+          </div>
+        </div>
+        <div className="shadow-lg  bg-gray-800 text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-2 ">
+          <h1 className="text-left text-3xl">87% </h1>
+          <h1 className="text-left text-3xl">Defi Safty score </h1>
+        </div>
+      </div>
     </div>
   );
 };

@@ -43,7 +43,7 @@ const OurProducts = () => {
               </div>
             </figure>
             <figure onMouseEnter={() => handleMouseEnter(videoRef3)}>
-              <video ref={videoRef3} src="/DBR.mp4" muted />
+              <video ref={videoRef3} src="/dbr.mp4" muted />
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Dola Borrowing Right
