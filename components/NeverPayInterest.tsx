@@ -42,9 +42,9 @@ const NeverPayInterest = () => {
               </div>
               <div className="order-first block w-full mt-12 aspect-square lg:mt-0">
                 <img
-                  className="object-cover object-center w-full mx-auto bg-gray-300 lg:ml-auto "
+                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
                   alt="hero"
-                  src="https://d33wubrfki0l68.cloudfront.net/6163c5a4083dab2763aa0f2aa9e6bded23630eb7/935d6/images/placeholders/square2.svg"
+                  src="DBR.svg"
                 />
               </div>
             </div>
