@@ -48,7 +48,7 @@ const NeverPayInterest = () => {
                 /> */}
                 <video
                   src="./Int.mp4"
-                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
+                  className="object-cover object-center w-full mx-auto  lg:ml-auto lg:mt-24 "
                   autoPlay
                   muted
                   loop
