@@ -41,10 +41,17 @@ const NeverPayInterest = () => {
                 </div>
               </div>
               <div className="order-first block w-full mt-12 aspect-square lg:mt-0">
-                <img
+                {/* <img
                   className="object-cover object-center w-full mx-auto  lg:ml-auto "
                   alt="hero"
                   src="DBR.svg"
+                /> */}
+                <video
+                  src="./int.mp4"
+                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
+                  autoPlay
+                  muted
+                  loop
                 />
               </div>
             </div>

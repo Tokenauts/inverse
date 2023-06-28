@@ -16,6 +16,14 @@ const stats = () => {
                   operation and governance
                 </h2>
               </div>
+              <div className=" sm:flex sm:items-center">
+                <a
+                  href="#"
+                  className="text-xs font-semibold border px-4 py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-white mt-12 "
+                >
+                  Open App
+                </a>
+              </div>
             </figure>
             <figure className=" h-96 bg-gray-500 rounded-xl  hover:bg-gray-800 ">
               <h1 className="text-4xl text-white font-black mt-40 ">$53.16M</h1>

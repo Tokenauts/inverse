@@ -9,7 +9,7 @@ export default function BlogComponent() {
       <h1 className="text-white text-3xl text-left font-semibold mb-24 lg:ml-24">
         The latest Alpha
       </h1>
-      <div className="mx-w-xl">
+      <div className="mx-w-xl overflow-y-auto">
         <Slider>
           {data.map((data, i) => (
             <div key={i}>
