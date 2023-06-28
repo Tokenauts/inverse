@@ -20,18 +20,10 @@ const OurProducts = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-3 relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-4xl">
-            <figure onMouseEnter={() => handleMouseEnter(videoRef1)}>
-              <video ref={videoRef1} src="/INV.mp4" muted />
-
-              <p className="mt-5 text-lg font-medium leading-6 text-white">
-                Inverse Governance Token
-              </p>
-
-              <div className="text-white text-center items-center mt-2">
-                Price : $39.45
-              </div>
-            </figure>
-            <figure onMouseEnter={() => handleMouseEnter(videoRef2)}>
+            <figure
+              onMouseEnter={() => handleMouseEnter(videoRef1)}
+              className="h-96"
+            >
               <video ref={videoRef2} src="/DOLA.mp4" muted />
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
@@ -42,7 +34,24 @@ const OurProducts = () => {
                 Price : $1.00
               </div>
             </figure>
-            <figure onMouseEnter={() => handleMouseEnter(videoRef3)}>
+            <figure
+              onMouseEnter={() => handleMouseEnter(videoRef2)}
+              className="h-96"
+            >
+              <video ref={videoRef1} src="/INV.mp4" muted />
+
+              <p className="mt-5 text-lg font-medium leading-6 text-white">
+                Inverse Governance Token
+              </p>
+
+              <div className="text-white text-center items-center mt-2">
+                Price : $39.45
+              </div>
+            </figure>
+            <figure
+              onMouseEnter={() => handleMouseEnter(videoRef3)}
+              className="h-96"
+            >
               <video ref={videoRef3} src="/dbr.mp4" muted />
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
