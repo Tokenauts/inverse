@@ -1,4 +1,5 @@
 import AnimationComponent from "@/components/AnimationComponent";
+import Blog from "@/components/Blog";
 import First from "@/components/First";
 import Footer from "@/components/Footer";
 import Governance from "@/components/Governance";
@@ -28,6 +29,7 @@ export default function Home() {
       <Stats />
       <Governance />
       <Security />
+      <Blog />
       <Footer />
     </div>
   );
