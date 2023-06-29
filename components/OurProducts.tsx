@@ -21,7 +21,7 @@ const OurProducts = () => {
 
           <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-3 relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-4xl">
             <figure
-              onMouseEnter={() => handleMouseEnter(videoRef1)}
+              onMouseEnter={() => handleMouseEnter(videoRef2)}
               className="h-96"
             >
               <video ref={videoRef2} src="/DOLA.mp4" muted />
@@ -35,7 +35,7 @@ const OurProducts = () => {
               </div>
             </figure>
             <figure
-              onMouseEnter={() => handleMouseEnter(videoRef2)}
+              onMouseEnter={() => handleMouseEnter(videoRef1)}
               className="h-96"
             >
               <video ref={videoRef1} src="/INV.mp4" muted />

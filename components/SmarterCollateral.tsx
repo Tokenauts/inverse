@@ -7,7 +7,7 @@ const SmarterCollateral = () => {
         <div className="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-6xl">
           <div className="relative flex-col items-start m-auto align-middle">
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
-              <div className="relative items-center gap-12 m-auto lg:inline-flex md:order-second">
+              <div className="relative items-center gap-12 m-auto lg:inline-flex md:order-second order-1">
                 <div className="max-w-xl text-center lg:text-left">
                   <div>
                     <p className="text-2xl font-medium tracking-tight text-white sm:text-4xl">
