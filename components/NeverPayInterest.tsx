@@ -11,7 +11,7 @@ const NeverPayInterest = () => {
                 <div className="max-w-xl text-center lg:text-left">
                   <div>
                     <p className="text-2xl font-medium tracking-tight text-white sm:text-4xl">
-                      Never Pay interest Again
+                      Never Pay Variable Interest Again
                     </p>
                     <p className="max-w-xl mt-4 text-2xl tracking-tight text-gray-600">
                       High-volatility interest rates don't work for long-term
