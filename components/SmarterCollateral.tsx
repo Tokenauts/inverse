@@ -3,7 +3,7 @@ import React from "react";
 const SmarterCollateral = () => {
   return (
     <div className="">
-      <section className="relative flex items-center w-full  ">
+      <section className="relative flex items-center w-ful  ">
         <div className="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
           <div className="relative flex-col items-start m-auto align-middle">
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
