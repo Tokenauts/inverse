@@ -48,7 +48,7 @@ const SmarterCollateral = () => {
                 /> */}
                 <video
                   src="./col.mp4"
-                  className="object-cover object-center w-full mx-auto  lg:ml-auto lg:mt-32 "
+                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
                   autoPlay
                   muted
                   loop
