@@ -45,7 +45,7 @@ const First = () => {
               <div className="order-first block w-full mt-12 aspect-square lg:mt-0">
                 <video
                   src="./Home.mp4"
-                  className="object-cover object-center w-full mx-auto  lg:ml-auto lg:mt-32 "
+                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
                   autoPlay
                   muted
                   loop
