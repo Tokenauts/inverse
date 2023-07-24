@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="relative items-center w-full  py-24 mx-auto ">
         <video
           src="./security.mp4"
-          className="object-cover rounded-xl w-full h-96 "
+          className="object-cover "
           autoPlay
           muted
           loop
