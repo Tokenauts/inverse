@@ -11,7 +11,7 @@ import SmarterCollateral from "@/components/SmarterCollateral";
 import SwitchFeature from "@/components/SwitchFeature";
 import Bug from "@/components/bug";
 import Stats from "@/components/stats";
-import Banner from "@/components/banner";
+import Banner from "@/components/Banner";
 export default function Home() {
   return (
     <div className="">
