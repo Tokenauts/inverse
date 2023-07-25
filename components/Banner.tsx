@@ -32,8 +32,8 @@ const Banner = () => {
           width: "100%",
           left: "50%",
           top: "50%",
-          height: "50%",
-          objectFit: "contain",
+          height: "40%",
+          objectFit: "cover",
           transform: "translate(-50%, -50%)",
           zIndex: "-1",
         }}
