@@ -2,7 +2,16 @@ import React from "react";
 
 const stats = () => {
   return (
-    <div>
+    <div
+      className="w-full"
+      style={{
+        backgroundImage: "url('./rocks.svg')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover", // change this to "cover" to ensure the image covers the full area
+        backgroundPosition: "center", // adjust as needed
+        overflow: "hidden",
+      }}
+    >
       <section className="flex items-center w-full mt-24 ">
         <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-4xl">
           <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-2">

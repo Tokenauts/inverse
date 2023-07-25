@@ -7,16 +7,25 @@ const First = () => {
         <div className="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
           <div className="relative flex-col items-start m-auto align-middle">
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
-              <div className=" order-first relative items-center gap-12 m-auto lg:inline-flex md:order-first ">
+              <div
+                className=" order-first relative items-center gap-12 m-auto lg:inline-flex md:order-first "
+                style={{
+                  backgroundImage: "url('./bg.svg')",
+                  backgroundRepeat: "no-repeat",
+                  backgroundSize: "contain",
+                  backgroundPosition: "left",
+                  overflow: "visible",
+                }}
+              >
                 <div className="max-w-xl text-center lg:text-left">
                   <div>
-                    <p className="text-6xl font-black  text-white sm:text-8xl">
+                    <p className="text-6xl font-black text-white sm:text-8xl">
                       Rethink
                     </p>
-                    <p className="text-xl font-light  text-white sm:text-2xl  ">
+                    <p className="text-xl font-light text-white sm:text-2xl ">
                       the way you
                     </p>
-                    <p className="text-6xl font-black  text-white sm:text-8xl">
+                    <p className="text-6xl font-black text-white sm:text-8xl">
                       Borrow
                     </p>
                     <p className="max-w-xl mt-4 text-base tracking-tight text-gray-600">
@@ -24,6 +33,7 @@ const First = () => {
                       fee that can earn you more.
                     </p>
                   </div>
+
                   <div className="flex justify-center gap-10 mt-10 lg:justify-start">
                     <div className=" sm:flex sm:items-center">
                       <a

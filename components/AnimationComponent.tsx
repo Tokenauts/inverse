@@ -16,7 +16,7 @@ const AnimationComponent = () => {
         <section className="flex items-center w-full">
           <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-20 ">
             <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3">
-              <figure className="bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100  rounded-3xl px-6 py-4 mb-2 hover:bg-purple-800">
+              <figure className=" bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100  rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
                   Borrow
@@ -32,7 +32,7 @@ const AnimationComponent = () => {
                   I want to Borrow
                 </a>
               </figure>
-              <figure className="   bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-3xl px-6 py-4 mb-2 hover:bg-purple-800">
+              <figure className="   bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
                   Earn
@@ -48,7 +48,7 @@ const AnimationComponent = () => {
                   I want to Earn
                 </a>
               </figure>
-              <figure className="  bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-3xl px-6 py-4 mb-2 hover:bg-purple-800">
+              <figure className="  bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg font-medium leading-6 text-white text-center   ">
                   Real Yield
