@@ -12,8 +12,8 @@ const First = () => {
                 style={{
                   backgroundImage: "url('./bg.svg')",
                   backgroundRepeat: "no-repeat",
-                  backgroundSize: "contain",
-                  backgroundPosition: "left",
+                  backgroundSize: "fill",
+                  backgroundPosition: "center",
                   overflow: "visible",
                 }}
               >

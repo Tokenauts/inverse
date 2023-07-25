@@ -1,119 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
-<style type="text/css">
-	.st0{opacity:0.3;clip-path:url(#SVGID_00000044177757498355867230000011216184586992520593_);}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="BACKGROUND">
-</g>
-<g id="OBJECTS">
-	<g>
-		<defs>
-			<rect id="SVGID_1_" y="0" width="1080" height="1080"/>
-		</defs>
-		<clipPath id="SVGID_00000171697251372010200480000017872194248174413459_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g style="opacity:0.3;clip-path:url(#SVGID_00000171697251372010200480000017872194248174413459_);">
-			<g>
-				<path class="st1" d="M1081,1081H-1V-1h1082V1081z M1,1079h1078V1H1V1079z"/>
-			</g>
-			<g>
-				<rect x="0" y="1011.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="944" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="876.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="809" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="741.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="674" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="606.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="539" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="471.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="404" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="336.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="269" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="201.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="134" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="0" y="66.5" class="st1" width="1080" height="2"/>
-			</g>
-			<g>
-				<rect x="1011.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="944" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="876.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="809" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="741.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="674" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="606.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="539" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="471.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="404" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="336.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="269" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="201.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="134" y="0" class="st1" width="2" height="1080"/>
-			</g>
-			<g>
-				<rect x="66.5" y="0" class="st1" width="2" height="1080"/>
-			</g>
-		</g>
-		<g style="clip-path:url(#SVGID_00000171697251372010200480000017872194248174413459_);">
-			<text transform="matrix(1 0 0 1 -315.8081 684.2701)" style="font-family:'MyriadPro-Regular'; font-size:12px;">Lorem ipsum</text>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 528 362">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        opacity: .5;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="-427.35" cy="204.16" fx="-427.35" fy="204.16" r="107" gradientTransform="translate(1382.27 -379.41) scale(2.62 2.71)" gradientUnits="userSpaceOnUse">
+      <stop offset=".65" stop-color="#000" stop-opacity="0"/>
+      <stop offset=".94" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <rect x=".35" width="527.29" height="362"/>
+  <g class="cls-1">
+    <path class="cls-2" d="m513.69,337.38H14.31V24.62h499.38v312.76Zm-498.73-.65h498.09V25.26H14.96v311.47Z"/>
+    <rect class="cls-2" x="14.63" y="321.13" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="305.52" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="289.92" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="274.31" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="258.71" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="243.1" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="227.49" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="211.89" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="196.28" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="180.68" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="165.07" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="149.47" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="133.86" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="118.25" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="102.65" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="87.04" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="71.44" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="55.83" width="498.73" height=".65"/>
+    <rect class="cls-2" x="14.63" y="40.22" width="498.73" height=".65"/>
+    <rect class="cls-2" x="497.93" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="482.82" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="467.7" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="452.59" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="437.48" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="422.36" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="407.25" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="392.14" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="377.03" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="361.91" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="346.8" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="331.69" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="316.57" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="301.46" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="286.35" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="271.23" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="256.12" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="241.01" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="225.89" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="210.78" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="195.67" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="180.56" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="165.44" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="150.33" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="135.22" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="120.1" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="104.99" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="89.88" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="74.76" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="59.65" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="44.54" y="24.94" width=".65" height="312.12"/>
+    <rect class="cls-2" x="29.43" y="24.94" width=".65" height="312.12"/>
+  </g>
+  <rect class="cls-3" x=".32" width="527.37" height="362"/>
 </svg>
