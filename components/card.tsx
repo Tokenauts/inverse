@@ -11,7 +11,7 @@ type Props = {
 
 const TestimonialCard = (props: Props) => {
   return (
-    <div className="block rounded-lg border w-60  lg:w-46 h-full ">
+    <div className="block rounded-lg border w-60  lg:w-56 h-full ">
       <a href="#!">
         <img className="rounded-t-lg" src={props.imgSrc} alt={props.author} />
       </a>
