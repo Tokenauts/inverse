@@ -8,13 +8,12 @@ const First = () => {
           <div className="relative flex-col items-start m-auto align-middle">
             <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
               <div
-                className=" order-first relative items-center gap-12 m-auto lg:inline-flex md:order-first "
+                className=" order-first relative items-center gap-12 m-auto lg:inline-flex md:order-first z-10 "
                 style={{
                   backgroundImage: "url('./bg.svg')",
                   backgroundRepeat: "no-repeat",
-                  backgroundSize: "fill",
+                  backgroundSize: "",
                   backgroundPosition: "center",
-                  overflow: "visible",
                 }}
               >
                 <div className="max-w-xl text-center lg:text-left">
