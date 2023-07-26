@@ -5,7 +5,7 @@ import TestimonialCard from "./card";
 import data from "./data.json";
 export default function BlogComponent() {
   return (
-    <div className="relative items-center w-full max-w-7xl   mx-auto   mt-24 ">
+    <div className="relative items-center w-full max-w-6xl   mx-auto   mt-24 ">
       <h1 className="text-white text-3xl text-left font-semibold mb-24 lg:ml-24">
         The latest Alpha
       </h1>

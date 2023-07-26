@@ -25,11 +25,15 @@ const Governance = () => {
                 <p className="text-4xl font-medium tracking-tight text-white sm:text-4xl mb-2">
                   Built For You, Governed By You
                 </p>
-                <img
-                  className="object-cover object-center w-full mx-auto lg:ml-auto p-16 "
-                  alt="hero"
-                  src="DBR.svg"
-                />
+                <div className="order-first block w-full mt-12 aspect-square lg:mt-20">
+                  <video
+                    src="./gov.mp4"
+                    className="object-cover object-center w-full mx-auto  lg:ml-auto "
+                    autoPlay
+                    muted
+                    loop
+                  />
+                </div>
               </div>
             </div>
           </div>

@@ -12,6 +12,7 @@ const stats = () => {
         overflow: "hidden",
       }}
     >
+      {/* <img src="./rocks.svg" className="absolute " /> */}
       <section className="flex items-center w-full mt-24 ">
         <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-4xl">
           <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-2">
