@@ -2,37 +2,17 @@ import React from "react";
 
 const Banner = () => {
   return (
-    // <div
-    //   className="relative flex items-center w-full "
-    //   style={{
-    //     backgroundImage: "url('./security.mp4')",
-    //     backgroundRepeat: "no-repeat",
-    //     backgroundSize: "contain",
-    //     backgroundPosition: "left",
-    //     overflow: "visible",
-    //   }}
-    // >
-    //   <div className="relative items-center w-full  py-24 mx-auto h-96 ">
-    //     {/* <video
-    //       src="./security.mp4"
-    //       className="object-cover "
-    //       autoPlay
-    //       muted
-    //       loop
-    //     /> */}
-    //   </div>
-    // </div>
-    <div style={{ position: "relative", height: "100vh", width: "100%" }}>
+    <div className="  h-96 lg:h-screen relative w-full">
       <video
         autoPlay
         loop
         muted
         style={{
           position: "absolute",
-          width: "100%",
+
           left: "50%",
           top: "50%",
-          height: "40%",
+
           objectFit: "cover",
           transform: "translate(-50%, -50%)",
           zIndex: "-1",
