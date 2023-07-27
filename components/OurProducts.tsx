@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
-
+import { motion } from "framer-motion";
+import { navVariants } from "../utils/motion";
 const OurProducts = () => {
   const videoRef1 = useRef<HTMLVideoElement>(null);
   const videoRef2 = useRef<HTMLVideoElement>(null);
