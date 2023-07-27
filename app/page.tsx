@@ -15,6 +15,10 @@ import Banner from "@/components/Banner";
 export default function Home() {
   return (
     <div className="">
+      <img
+        src="./noise.png"
+        className="fixed top-0 left-0 min-w-full min-h-full mix-blend-screen z-0"
+      />
       <div style={{ position: "relative", zIndex: 2 }}>
         <Navbar />
       </div>
