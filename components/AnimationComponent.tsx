@@ -48,7 +48,7 @@ const AnimationComponent = () => {
                   I want to Earn
                 </a>
               </figure>
-              <figure className="  bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
+              <figure className="  bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-md px-6 py-4 mb-2 hover:bg-gray-800 ">
                 <img src="./Dola.svg" />
                 <p className="mt-5 text-lg  leading-6 text-white text-center uppercasefont-extrabold ">
                   Real Yield

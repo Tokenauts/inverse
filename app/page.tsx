@@ -51,8 +51,8 @@ export default function Home() {
     >
       <div className="">
         <img
-          src="./noise.png"
-          className="fixed top-0 left-0 min-w-full min-h-full mix-blend-screen"
+          src="./texture.svg"
+          className="fixed top-0 left-0 min-w-full min-h-full opacity-40 "
           style={{ zIndex: 0 }}
         />
         <div style={{ position: "relative", zIndex: 2 }}>

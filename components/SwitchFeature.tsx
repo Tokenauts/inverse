@@ -23,7 +23,7 @@ const SwitchFeature: React.FC = () => {
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs   ${
             selectedTab === "DEX"
               ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200 text-w"
+              : " text-w"
           }`}
         >
           DEX
@@ -34,7 +34,7 @@ const SwitchFeature: React.FC = () => {
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs  ${
             selectedTab === "CEX"
               ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200 text-w"
+              : " text-w"
           }`}
         >
           CEX
@@ -44,7 +44,7 @@ const SwitchFeature: React.FC = () => {
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs ${
             selectedTab === "YIELD"
               ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200 text-w"
+              : " text-w"
           }`}
         >
           Yield
@@ -54,7 +54,7 @@ const SwitchFeature: React.FC = () => {
           className={`lg:px-4 lg:py-2 rounded-full px-2  text-xs ${
             selectedTab === "INTERFACE"
               ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200 text-w"
+              : "text-w"
           }`}
         >
           Interface
@@ -64,7 +64,7 @@ const SwitchFeature: React.FC = () => {
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs ${
             selectedTab === "WALLETS"
               ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200 text-w"
+              : "text-w"
           }`}
         >
           Wallets

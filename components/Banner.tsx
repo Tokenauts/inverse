@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="  h-44 lg:h-screen relative w-full">
+    <div className="  h-44 lg:h-screen relative w-full mt-40 bg-black">
       <video
         autoPlay
         loop
@@ -15,7 +15,6 @@ const Banner = () => {
 
           objectFit: "cover",
           transform: "translate(-50%, -50%)",
-          zIndex: "-1",
         }}
         className="w-full"
       >
@@ -31,9 +30,16 @@ const Banner = () => {
           transform: "translate(-50%, -50%)",
           zIndex: "1",
         }}
-        className=" text-3xl lg:text-6xl text-white font-thin w-full"
+        className=" text-8xl lg:text-6xl text-white font-extrabold w-full"
       >
         Join This Exciting Journey
+        <br />
+        <a
+          href="#"
+          className="text-base font-light border px-4 bg-white py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-black bottom-0 "
+        >
+          I want to Earn
+        </a>
       </div>
     </div>
   );
