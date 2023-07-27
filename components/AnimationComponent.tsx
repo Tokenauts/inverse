@@ -6,10 +6,10 @@ const AnimationComponent = () => {
   return (
     <motion.div variants={navVariants} initial="hidden" whileInView="show">
       <div className="relative items-center w-full px-5 lg:py-24 mx-auto md:px-12 lg:px-16 max-w-7xl  ">
-        <h1 className=" text-5xl  lg:text-6xl font-black text-left text-white mt-10">
+        <h1 className=" text-6xl  lg:text-6xl font-black text-left text-white mt-10">
           Try Inverse
         </h1>
-        <h3 className="text-xl font-light text-left ml-4  text-white lg:ml-48 ">
+        <h3 className="text-4xl font-light text-left bg-white   text-black max-w-xl mt-2 p-1  ">
           Put our protocol to work for you
         </h3>
 
@@ -18,7 +18,7 @@ const AnimationComponent = () => {
             <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3">
               <figure className=" bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100  rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
                 <img src="./Dola.svg" />
-                <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
+                <p className="mt-5 text-lg font-extrabold leading-6 text-white text-center uppercase  ">
                   Borrow
                 </p>
                 <p className="mt-3 text-sm text-gray-300 text-center h-24">
@@ -34,7 +34,7 @@ const AnimationComponent = () => {
               </figure>
               <figure className="   bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
                 <img src="./Dola.svg" />
-                <p className="mt-5 text-lg font-medium leading-6 text-white text-center  ">
+                <p className="mt-5 text-lg  leading-6 text-white text-center uppercase font-extrabold   ">
                   Earn
                 </p>
                 <p className="mt-3 text-sm text-gray-300 text-center h-24">
@@ -50,7 +50,7 @@ const AnimationComponent = () => {
               </figure>
               <figure className="  bg-gray-700 bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-20 border border-gray-100 rounded-md px-6 py-4 mb-2 hover:bg-gray-800">
                 <img src="./Dola.svg" />
-                <p className="mt-5 text-lg font-medium leading-6 text-white text-center   ">
+                <p className="mt-5 text-lg  leading-6 text-white text-center uppercasefont-extrabold ">
                   Real Yield
                 </p>
                 <p className="mt-3 text-sm text-gray-300  h-24 text-center">

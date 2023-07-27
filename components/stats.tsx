@@ -9,7 +9,6 @@ const stats = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover", // change this to "cover" to ensure the image covers the full area
         backgroundPosition: "center", // adjust as needed
-        overflow: "hidden",
       }}
     >
       {/* <img src="./rocks.svg" className="absolute " /> */}
@@ -21,7 +20,7 @@ const stats = () => {
                 <h1 className="lg:text-4xl text-2xl text-white font-black mt-24 text-left">
                   The Stats
                 </h1>
-                <h2 className="lg:text-xl text-base text-white font-light mt-4 text-left">
+                <h2 className="lg:text-2xl text-base text-white font-light mt-4 text-left">
                   Inverse Finance DAO operates unmatched transparency into its
                   operation and governance
                 </h2>
@@ -35,23 +34,17 @@ const stats = () => {
                 </a>
               </div>
             </figure>
-            <figure className=" h-96 bg-gray-500 rounded-xl  hover:bg-gray-800 ">
-              <h1 className="text-4xl text-white font-black mt-40 ">$53.16M</h1>
-              <h2 className="text-xl text-white font-light mt-4 ">
-                Total Value Locked
-              </h2>
+            <figure className=" h-96 bg-zinc-800 rounded-xl  hover:bg-zinc-900 hover:text-green-400 text-white  ">
+              <h1 className="text-4xl  font-black mt-40 ">$53.16M</h1>
+              <h2 className="text-xl font-light mt-4  ">Total Value Locked</h2>
             </figure>
-            <figure className=" h-96 bg-gray-500 rounded-xl  hover:bg-gray-800 ">
-              <h1 className="text-4xl text-white font-black mt-40 ">$52.78M</h1>
-              <h2 className="text-xl text-white font-light mt-4 ">
-                DOLA Circulation
-              </h2>
+            <figure className=" h-96 bg-zinc-800 rounded-xl   hover:bg-zinc-900   hover:text-amber-400 text-white ">
+              <h1 className="text-4xl font-black mt-40 ">$52.78M</h1>
+              <h2 className="text-xl  font-light mt-4 ">DOLA Circulation</h2>
             </figure>
-            <figure className=" h-96 bg-gray-500 rounded-xl   hover:bg-gray-800 ">
-              <h1 className="text-4xl text-white font-black mt-40 ">$1.56M</h1>
-              <h2 className="text-xl text-white font-light mt-4 ">
-                DOLA 24h Volume
-              </h2>
+            <figure className=" h-96 bg-zinc-800 rounded-xl    hover:bg-zinc-900 hover:text-amber-200 text-white ">
+              <h1 className="text-4xl  font-black mt-40 ">$1.56M</h1>
+              <h2 className="text-xl font-light mt-4 ">DOLA 24h Volume</h2>
             </figure>
           </div>
         </div>

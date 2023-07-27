@@ -14,16 +14,16 @@ const SwitchFeature: React.FC = () => {
 
   return (
     <div className="relative items-center w-full px-5 lg:py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
-      <h1 className="lg:text-7xl text-white font-black text-4xl  ">
+      <h1 className="lg:text-6xl text-white font-black text-4xl  ">
         Our Ecosystem
       </h1>
-      <div className="inline-flex bg-purple-200 items-center mt-10  rounded-3xl cursor-pointer dark:text-gray-800  mx-auto  lg:px-2  p-2 lg:p-1">
+      <div className="inline-flex border items-center mt-10 text-white  rounded-3xl cursor-pointer dark:text-white mx-auto     lg:px-4 py-2">
         <span
           onClick={() => handleTabClick("DEX")}
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs   ${
             selectedTab === "DEX"
-              ? "bg-purple-500 text-white font-light rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200"
+              ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
+              : "dark:bg-purple-200 text-w"
           }`}
         >
           DEX
@@ -33,8 +33,8 @@ const SwitchFeature: React.FC = () => {
           onClick={() => handleTabClick("CEX")}
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs  ${
             selectedTab === "CEX"
-              ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200"
+              ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
+              : "dark:bg-purple-200 text-w"
           }`}
         >
           CEX
@@ -43,8 +43,8 @@ const SwitchFeature: React.FC = () => {
           onClick={() => handleTabClick("YIELD")}
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs ${
             selectedTab === "YIELD"
-              ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200"
+              ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
+              : "dark:bg-purple-200 text-w"
           }`}
         >
           Yield
@@ -53,8 +53,8 @@ const SwitchFeature: React.FC = () => {
           onClick={() => handleTabClick("INTERFACE")}
           className={`lg:px-4 lg:py-2 rounded-full px-2  text-xs ${
             selectedTab === "INTERFACE"
-              ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200"
+              ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
+              : "dark:bg-purple-200 text-w"
           }`}
         >
           Interface
@@ -63,8 +63,8 @@ const SwitchFeature: React.FC = () => {
           onClick={() => handleTabClick("WALLETS")}
           className={`lg:px-4 lg:py-2 rounded-full px-2 text-xs ${
             selectedTab === "WALLETS"
-              ? "bg-purple-500 text-white rounded-full text-xs lg:text-base"
-              : "dark:bg-purple-200"
+              ? " bg-violet-500 border text-white font-light rounded-full text-xs lg:text-base"
+              : "dark:bg-purple-200 text-w"
           }`}
         >
           Wallets
@@ -105,7 +105,7 @@ const SwitchFeature: React.FC = () => {
           </div>
           <a
             href="#"
-            className="text-xs font-semibold border px-4 py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-white "
+            className="text-xs font-semibold border text-white  px-4 py-2 rounded-full hover:text-violet-500 hover:border-violet-500  "
           >
             Become a partner
           </a>

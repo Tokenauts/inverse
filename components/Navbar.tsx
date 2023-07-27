@@ -80,7 +80,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div className="relative items-center w-full   mx-auto md:px-12 lg:px-16 max-w-7xl text-white">
+    <div className="relative items-center w-full   mx-auto md:px-12 lg:px-16 max-w-7xl text-white mt-10">
       <div className="container mx-auto ">
         <div className="flex items-center justify-between py-1 ">
           <div>
