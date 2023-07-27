@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="  h-96 lg:h-screen relative w-full">
+    <div className="  h-44 lg:h-screen relative w-full">
       <video
         autoPlay
         loop
@@ -17,6 +17,7 @@ const Banner = () => {
           transform: "translate(-50%, -50%)",
           zIndex: "-1",
         }}
+        className="w-full"
       >
         <source src="./security.mp4" type="video/mp4" />
         Your browser does not support HTML5 video.
