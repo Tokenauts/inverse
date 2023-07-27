@@ -27,7 +27,7 @@ const Governance = () => {
                 </p>
                 <div className="order-first block w-full mt-12 aspect-square lg:mt-20">
                   <video
-                    src="./gov.mp4"
+                    src="./gov.webm"
                     className="object-cover object-center w-full mx-auto  lg:ml-auto "
                     autoPlay
                     muted

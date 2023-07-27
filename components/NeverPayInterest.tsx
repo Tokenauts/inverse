@@ -47,7 +47,7 @@ const NeverPayInterest = () => {
                   src="DBR.svg"
                 /> */}
                 <video
-                  src="./Int.mp4"
+                  src="./Int.webm"
                   className="object-cover object-center w-full mx-auto  lg:ml-auto lg:mt-32 "
                   autoPlay
                   muted

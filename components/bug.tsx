@@ -2,15 +2,7 @@ import React from "react";
 
 const bug = () => {
   return (
-    <div
-      style={{
-        backgroundImage: "url('./rocks.svg')",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover", // change this to "cover" to ensure the image covers the full area
-        backgroundPosition: "center", // adjust as needed
-        overflow: "hidden",
-      }}
-    >
+    <div>
       <section className="">
         <div className="relative items-center w-full px-5  mx-auto mb-12 md:px-12 lg:px-16 max-w-4xl">
           <video
