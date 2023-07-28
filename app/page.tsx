@@ -44,7 +44,7 @@ export default function Home() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 2, delay: 0.5 }}
+      transition={{ duration: 4, delay: 0.5 }}
     >
       <div className="">
         <img
