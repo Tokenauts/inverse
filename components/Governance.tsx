@@ -27,12 +27,14 @@ const Governance = () => {
               <div className="order-first block w-full mt-12 aspect-square lg:mt-0">
                 <div className="order-first block w-full mt-12 aspect-square lg:mt-48">
                   <video
-                    src="./gov.webm"
                     className="object-cover object-center w-full mx-auto  lg:ml-auto "
                     autoPlay
                     muted
                     loop
-                  />
+                  >
+                    <source src="./gov.webm" />
+                    <source src="./gov.mov" />
+                  </video>
                 </div>
               </div>
             </div>

@@ -31,13 +31,10 @@ export default function Home() {
     return (
       <div className="fixed inset-0 z-10 h-screen bg-[rgba(0,0,0,0.7)] flex items-center justify-center flex-col">
         <div style={{ width: "30%" }}>
-          <video
-            src="./loading.webm"
-            autoPlay
-            muted
-            loop
-            style={{ width: "100%", height: "100%" }}
-          />
+          <video autoPlay muted loop style={{ width: "100%", height: "100%" }}>
+            <source src="./loading.webm" />
+            <source src="./loading.mov" />
+          </video>
         </div>
       </div>
     );

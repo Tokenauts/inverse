@@ -34,12 +34,14 @@ const SmarterCollateral = () => {
               </div>
               <div className="order-first block w-full mt-12 aspect-square lg:mt-0 p-4">
                 <video
-                  src="./col.webm"
-                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
                   autoPlay
                   muted
                   loop
-                />
+                  className="object-cover object-center w-full mx-auto  lg:ml-auto "
+                >
+                  <source src="./col.webm" />
+                  <source src="./col.mov" />
+                </video>
               </div>
             </div>
           </div>

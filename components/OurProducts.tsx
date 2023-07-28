@@ -27,13 +27,14 @@ const OurProducts = () => {
               onMouseEnter={() => handleMouseEnter(videoRef2)}
               className="h-96"
             >
-              <video ref={videoRef2} src="/DOLA.webm" muted />
-
+              <video ref={videoRef2} muted>
+                <source src="./DOLA.webm" />
+                <source src="./DOLA.mov" />
+              </video>
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 DOLA Stablecoin
                 <br /> (DOLA)
               </p>
-
               <div className="text-white text-center items-center mt-2 font-light">
                 Price : $1.00
               </div>
@@ -42,7 +43,10 @@ const OurProducts = () => {
               onMouseEnter={() => handleMouseEnter(videoRef1)}
               className="h-96"
             >
-              <video ref={videoRef1} src="/INV.webm" muted />
+              <video ref={videoRef1} muted>
+                <source src="./INV.webm" />
+                <source src="./INV.mov" />
+              </video>
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 Inverse Governance Token
@@ -57,7 +61,10 @@ const OurProducts = () => {
               onMouseEnter={() => handleMouseEnter(videoRef3)}
               className="h-96"
             >
-              <video ref={videoRef3} src="/dbr.webm" muted />
+              <video ref={videoRef3} muted>
+                <source src="./dbr.webm" />
+                <source src="./dbr.mov" />
+              </video>
 
               <p className="mt-5 text-lg font-medium leading-6 text-white">
                 DOLA Borrowing Right

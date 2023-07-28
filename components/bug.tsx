@@ -5,13 +5,10 @@ const bug = () => {
     <div>
       <section className="">
         <div className="relative items-center w-full px-5  mx-auto mb-12 md:px-12 lg:px-16 max-w-4xl">
-          <video
-            src="bug.webm"
-            autoPlay
-            loop
-            muted
-            className="w-full pt-6"
-          ></video>
+          <video autoPlay loop muted className="w-full pt-6">
+            <source src="./bug.webm" />
+            <source src="./bug.mov" />
+          </video>
           <div>
             <p className="max-w-xl mx-auto mt-4 text-lg tracking-tight text-white mb-10">
               Inverse Finance invites developers and security researches to take
