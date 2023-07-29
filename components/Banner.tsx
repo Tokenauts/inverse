@@ -7,16 +7,16 @@ const Banner = () => {
         autoPlay
         loop
         muted
-        style={{
-          position: "absolute",
+        className="absolute w-full h-full justify-center"
+        // style={{
+        //   position: "absolute",
 
-          left: "50%",
-          top: "50%",
+        //   left: "50%",
+        //   top: "50%",
 
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-        }}
-        className="w-full"
+        //   objectFit: "cover",
+        //   transform: "translate(-50%, -50%)",
+        // }}
       >
         <source src="./security.mp4" type="video/mp4" />
         Your browser does not support HTML5 video.

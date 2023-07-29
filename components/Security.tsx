@@ -35,8 +35,27 @@ const Security = () => {
           </div>
         </div>
 
-        <div className="shadow-lg  bg-gray-200 text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-3">
-          5
+        <div className="shadow-lg text-lg font-bold text-center  rounded-lg lg:col-span-3">
+          <div className="grid grid-cols-6 gap-2 ">
+            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+              1
+            </div>
+            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+              2
+            </div>
+            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+              3
+            </div>
+            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+              4
+            </div>
+            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+              4
+            </div>
+            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
+              4
+            </div>
+          </div>
         </div>
         <div className="shadow-lg  bg-gray-800  text-green-500 text-lg font-bold text-center p-10 rounded-lg ">
           <div>

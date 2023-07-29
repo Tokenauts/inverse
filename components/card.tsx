@@ -11,15 +11,15 @@ type Props = {
 
 const TestimonialCard = (props: Props) => {
   return (
-    <div className="block rounded-lg border w-60  lg:w-56 h-full ">
+    <div className="block rounded-lg border w-64  h-full ">
       <a href="#!">
         <img className="rounded-t-lg" src={props.imgSrc} alt={props.author} />
       </a>
       <div className="p-6">
-        <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+        <h5 className="mb-2 text-base font-medium leading-tight text-neutral-800 dark:text-neutral-50">
           {props.title}
         </h5>
-        <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
+        <p className="mb-4 text-xs text-neutral-600 dark:text-neutral-200">
           {props.content}
         </p>
       </div>
