@@ -72,95 +72,129 @@ const SwitchFeature: React.FC = () => {
       </div>
       {selectedTab === "DEX" && (
         <div>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-7 gap-2 md:gap-4 lg:gap-6 p-5 mt-10">
-            <motion.button
-              whileHover={{
-                scale: 1.2,
-                transition: { duration: 1 },
-              }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <div className=" text-green-500 text-lg font-bold text-center p-8 rounded-lg">
-                <img src="./vite.svg" className="w-full" />
-              </div>
-            </motion.button>
-            <div className=" text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              2
+          <div className="grid grid-cols-3 gap-4 p-5 mx-auto max-w-2xl">
+            <div className="shadow-lg text-lg font-bold text-center  p-10 rounded-lg row-span-1">
+              <img src="./DEX-01.svg" className="  " />
+              <p className="text-white mt-2">Balancer</p>
             </div>
-            <div className=" text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              3
+            <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg">
+              <img src="./DEX-02.svg" className=" " />
+              <p className="text-white mt-2">Velodrome</p>
             </div>
-            <div className=" text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
+            <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              <img src="./DEX-03.svg" className="" />
+              <p className="text-white mt-2">Convex</p>
             </div>
-            <div className=" text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
+            <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+              <img src="./DEX-04.svg" className=" " />
+              <p className="text-white mt-2">Uniswap</p>
             </div>
-            <div className=" text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
+            <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              <img src="./DEX-05.svg" className=" " />
+              <p className="text-white mt-2">SuishiSwap</p>
             </div>
-            <div className=" text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
+            <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              <img src="./DEX-06.svg" className="" />
+              <p className="text-white mt-2">Athena</p>
             </div>
           </div>
-          <a
-            href="#"
-            className="text-xs font-semibold border text-white  px-4 py-2 rounded-full hover:text-violet-500 hover:border-violet-500  "
-          >
-            Become a partner
-          </a>
         </div>
       )}
       {selectedTab === "YIELD" && (
-        <div className="text-white">
-          <section className="relative flex items-center w-full">
-            <div className="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
-              <div className="relative flex-col items-start m-auto align-middle">
-                <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
-                  <div className="relative items-center gap-12 m-auto lg:inline-flex">
-                    <div className="max-w-xl text-center lg:text-left">
-                      <div>
-                        <p className="text-2xl font-medium tracking-tight text-black sm:text-4xl">
-                          I am a short heading
-                        </p>
-                        <p className="max-w-xl mt-4 text-base tracking-tight text-gray-600">
-                          Use this paragraph to share information about your
-                          company or products. Make it engaging and interesting,
-                          and showcase your brand's personality. Thanks for
-                          visiting our website!
-                        </p>
-                      </div>
-                      <div className="flex justify-center gap-3 mt-10 lg:justify-start">
-                        <a
-                          className="inline-flex items-center justify-center text-sm font-semibold text-black duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600"
-                          href="#"
-                        >
-                          <span>Read more</span>
-                        </a>{" "}
-                      </div>
-                    </div>
-                  </div>
-                  <div className="order-first block w-full mt-12 aspect-square lg:mt-0 lg:order-first">
-                    <img
-                      className="object-cover object-center w-full mx-auto bg-gray-300 lg:ml-auto"
-                      alt="hero"
-                      src="https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg"
-                    />
-                  </div>
-                </div>
-              </div>
+        <div>
+          <div className="grid grid-cols-3 gap-4 p-5">
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              1
             </div>
-          </section>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              2
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              3
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              4
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              5
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              6
+            </div>
+          </div>
         </div>
       )}
       {selectedTab === "CEX" && (
-        <div className="text-white">This is the Yearly tab</div>
+        <div>
+          <div className="grid grid-cols-3 gap-4 p-5">
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              1
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              2
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              3
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              4
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              5
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              6
+            </div>
+          </div>
+        </div>
       )}
       {selectedTab === "INTERFACE" && (
-        <div className="text-white">This is the Yearly tab</div>
+        <div>
+          <div className="grid grid-cols-3 gap-4 p-5">
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              1
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              2
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              3
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              4
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              5
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              6
+            </div>
+          </div>
+        </div>
       )}
       {selectedTab === "WALLETS" && (
-        <div className="text-white">This is the Yearly tab</div>
+        <div>
+          <div className="grid grid-cols-3 gap-4 p-5">
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              1
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              2
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg row-span-1">
+              3
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg">
+              4
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              5
+            </div>
+            <div className="shadow-lg bg-green-100 text-green-500 text-lg font-bold text-center p-10 rounded-lg col-span-1">
+              6
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
