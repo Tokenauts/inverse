@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Security = () => {
   return (
@@ -35,35 +36,89 @@ const Security = () => {
           </div>
         </div>
 
-        <div className="shadow-lg text-lg font-bold text-center  rounded-lg lg:col-span-3">
-          <div className="grid grid-cols-6 gap-2 ">
-            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              1
-            </div>
-            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              2
-            </div>
-            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              3
-            </div>
-            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
-            </div>
-            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
-            </div>
-            <div className="bg-green-100 text-green-500 text-lg font-bold text-center p-14 rounded-lg">
-              4
-            </div>
+        <div className="shadow-lg text-lg font-bold text-center rounded-lg lg:col-span-3 mb-8  ">
+          <div className="grid grid-cols-3 gap-6 ">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileHover={{
+                scale: 1.05,
+              }}
+            >
+              <div className="shadow-lg text-lg font-bold text-center rounded-lg bg-zinc-900 hover:bg-zinc-800 ">
+                <img src="./SECURITY PARTNERS-01.svg" className="  " />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileHover={{
+                scale: 1.05,
+              }}
+            >
+              <div className="shadow-lg text-lg font-bold text-center  rounded-lg bg-zinc-900 hover:bg-zinc-800   ">
+                <img src="./SECURITY PARTNERS-02.svg" className="  " />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileHover={{
+                scale: 1.05,
+              }}
+            >
+              <div className="shadow-lg text-lg font-bold text-center  rounded-lg bg-zinc-900 hover:bg-zinc-800   ">
+                <img src="./SECURITY PARTNERS-03.svg" className="  " />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileHover={{
+                scale: 1.05,
+              }}
+            >
+              <div className="shadow-lg text-lg font-bold text-center rounded-lg bg-zinc-900 hover:bg-zinc-800   ">
+                <img src="./SECURITY PARTNERS-04.svg" className="  " />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileHover={{
+                scale: 1.05,
+              }}
+            >
+              <div className="shadow-lg text-lg font-bold text-center  rounded-lg bg-zinc-900  hover:bg-zinc-800  ">
+                <img src="./SECURITY PARTNERS-05.svg" className="  " />
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1, delay: 0.1 }}
+              whileHover={{
+                scale: 1.05,
+              }}
+            >
+              <div className="shadow-lg text-lg font-bold text-center  rounded-lg bg-zinc-900 hover:bg-zinc-800   ">
+                <img src="./SECURITY PARTNERS-06.svg" className="  " />
+              </div>
+            </motion.div>
           </div>
         </div>
-        <div className="shadow-lg  bg-gray-800  text-green-500 text-lg font-bold text-center p-10 rounded-lg ">
+        <div className="shadow-lg  bg-zinc-900  text-green-500 text-lg font-bold text-center p-10 rounded-lg  ">
           <div>
             <h1 className="text-left text-5xl">2 </h1>
             <h1 className="text-left text-3xl">Full Audits </h1>
           </div>
         </div>
-        <div className="shadow-lg  bg-gray-800 text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-2 ">
+        <div className="shadow-lg  bg-zinc-900 text-green-500 text-lg font-bold text-center p-10 rounded-lg lg:col-span-2 ">
           <h1 className="text-left text-5xl">87% </h1>
           <h1 className="text-left text-3xl">Defi safety score </h1>
         </div>

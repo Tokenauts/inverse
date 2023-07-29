@@ -30,7 +30,7 @@ const Banner = () => {
           transform: "translate(-50%, -50%)",
           zIndex: "1",
         }}
-        className=" text-8xl lg:text-6xl text-white font-extrabold w-full"
+        className=" text-3xl lg:text-8xl text-white font-extrabold w-full"
       >
         Join This Exciting Journey
         <br />

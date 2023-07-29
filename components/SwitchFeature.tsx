@@ -14,7 +14,7 @@ const SwitchFeature: React.FC = () => {
 
   return (
     <div
-      className="lg:w-screen lg:h-screen "
+      className="h-screen lg:w-screen lg:h-screen "
       style={{
         backgroundImage: "url('./grid.svg')",
         backgroundRepeat: "no-repeat",
@@ -23,7 +23,10 @@ const SwitchFeature: React.FC = () => {
       }}
     >
       <div className="relative items-center w-full  gap-4 px-5  mx-auto md:px-12 lg:px-16 max-w-7xl">
-        <div className="grid grid-cols-2 z-10" style={{ zIndex: 2 }}>
+        <div
+          className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-2 z-10"
+          style={{ zIndex: 2 }}
+        >
           <h1 className="lg:text-6xl text-white font-black text-4xl mt-8   ">
             Our Ecosystem
           </h1>
@@ -93,7 +96,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center  p-10 rounded-lg ">
+                <div className="shadow-lg text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-01.svg" className="  " />
                 </div>
               </motion.div>
@@ -106,7 +109,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg text-lg font-bold text-center p-4  md:p-8 lg:p-10 rounded-lg">
                   <img src="./DEX-02.svg" className=" " />
                 </div>
               </motion.div>
@@ -119,7 +122,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg ">
+                <div className="shadow-lg text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-03.svg" className="" />
                 </div>
               </motion.div>
@@ -132,7 +135,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg">
                   <img src="./DEX-04.svg" className=" " />
                 </div>
               </motion.div>
@@ -145,7 +148,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center  p-4   md:p-8 lg:p-10 rounded-lg">
                   <img src="./DEX-05.svg" className=" " />
                 </div>
               </motion.div>
@@ -158,7 +161,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg">
                   <img src="./DEX-06.svg" className="" />
                 </div>
               </motion.div>
@@ -171,7 +174,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg">
                   <img src="./DEX-07.svg" className="" />
                 </div>
               </motion.div>
@@ -202,7 +205,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center  p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./YEILD-01.svg" className="  " />
                 </div>
               </motion.div>
@@ -215,7 +218,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg">
                   <img src="./YEILD-02.svg" className=" " />
                 </div>
               </motion.div>
@@ -228,7 +231,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./YEILD-03.svg" className="" />
                 </div>
               </motion.div>
@@ -241,7 +244,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./YEILD-04.svg" className=" " />
                 </div>
               </motion.div>
@@ -254,7 +257,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./YEILD-05.svg" className=" " />
                 </div>
               </motion.div>
@@ -267,7 +270,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./YEILD-06.svg" className="" />
                 </div>
               </motion.div>
@@ -280,7 +283,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./YEILD-07.svg" className="" />
                 </div>
               </motion.div>
@@ -311,7 +314,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center  p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./CEX-01.svg" className="  " />
                 </div>
               </motion.div>
@@ -324,7 +327,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./CEX-02.svg" className=" " />
                 </div>
               </motion.div>
@@ -337,7 +340,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./CEX-03.svg" className="" />
                 </div>
               </motion.div>
@@ -369,7 +372,7 @@ const SwitchFeature: React.FC = () => {
                 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center  p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-01.svg" className="  " />
                 </div>
               </motion.div>
@@ -383,7 +386,7 @@ const SwitchFeature: React.FC = () => {
                 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-02.svg" className=" " />
                 </div>
               </motion.div>
@@ -397,7 +400,7 @@ const SwitchFeature: React.FC = () => {
                 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-03.svg" className="" />
                 </div>
               </motion.div>
@@ -411,7 +414,7 @@ const SwitchFeature: React.FC = () => {
                 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-04.svg" className=" " />
                 </div>
               </motion.div>
@@ -425,7 +428,7 @@ const SwitchFeature: React.FC = () => {
                 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-05.svg" className=" " />
                 </div>
               </motion.div>
@@ -439,7 +442,7 @@ const SwitchFeature: React.FC = () => {
                 }}
                 whileTap={{ scale: 0.9 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-06.svg" className="" />
                 </div>
               </motion.div>
@@ -470,7 +473,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center  p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-01.svg" className="  " />
                 </div>
               </motion.div>
@@ -483,7 +486,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-02.svg" className=" " />
                 </div>
               </motion.div>
@@ -496,7 +499,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg text-lg font-bold text-center p-10 rounded-lg ">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-03.svg" className="" />
                 </div>
               </motion.div>
@@ -509,7 +512,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-04.svg" className=" " />
                 </div>
               </motion.div>
@@ -522,7 +525,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-05.svg" className=" " />
                 </div>
               </motion.div>
@@ -535,7 +538,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-06.svg" className="" />
                 </div>
               </motion.div>
@@ -548,7 +551,7 @@ const SwitchFeature: React.FC = () => {
                   transition: { duration: 0.2 },
                 }}
               >
-                <div className="shadow-lg  text-lg font-bold text-center p-10 rounded-lg">
+                <div className="shadow-lg  text-lg font-bold text-center p-4   md:p-8 lg:p-10 rounded-lg ">
                   <img src="./DEX-07.svg" className="" />
                 </div>
               </motion.div>
