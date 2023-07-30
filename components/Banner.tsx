@@ -2,21 +2,20 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="  h-44 lg:h-screen relative w-full mt-40 bg-black">
+    <div className="  h-44 lg:h-screen relative w-full mt-40">
       <video
         autoPlay
         loop
         muted
-        className="absolute w-full h-full justify-center"
-        // style={{
-        //   position: "absolute",
+        style={{
+          position: "absolute",
 
-        //   left: "50%",
-        //   top: "50%",
+          left: "50%",
+          top: "50%",
 
-        //   objectFit: "cover",
-        //   transform: "translate(-50%, -50%)",
-        // }}
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+        }}
       >
         <source src="./security.mp4" type="video/mp4" />
         Your browser does not support HTML5 video.
@@ -30,7 +29,7 @@ const Banner = () => {
           transform: "translate(-50%, -50%)",
           zIndex: "1",
         }}
-        className=" text-3xl lg:text-8xl text-white font-extrabold w-full"
+        className=" text-3xl lg:text-4xl text-white font-extrabold w-full"
       >
         Join This Exciting Journey
         <br />
