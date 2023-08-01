@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Security = () => {
   return (
-    <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-16 max-w-7xl ">
+    <div className="relative items-center w-full px-5  mx-auto md:px-12 lg:px-16 max-w-7xl mt-20 ">
       <div className="grid grid-rows-1 lg:grid-rows-3 gap-5 ">
         <div className=" shadow-lg text-white text-lg font-bold text-center p-2 rounded-lg   lg:h-44 h-46 ">
           <div>

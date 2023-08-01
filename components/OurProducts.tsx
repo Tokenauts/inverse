@@ -22,7 +22,7 @@ const OurProducts = () => {
             Products
           </div>
 
-          <div className="grid grid-cols-1 gap-6 py-12 md:grid-cols-3 relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-4xl">
+          <div className="grid grid-cols-1 gap-8 py-12 md:grid-cols-3 relative items-center w-full px-5  mx-auto md:px-12 lg:px-20 max-w-4xl">
             <figure
               onMouseEnter={() => handleMouseEnter(videoRef2)}
               className="h-96"

@@ -25,10 +25,10 @@ const stats = () => {
                   operation and governance
                 </h2>
               </div>
-              <div className=" sm:flex sm:items-center">
+              <div className=" sm:flex sm:items-center mt-4">
                 <a
                   href="#"
-                  className="text-xs font-semibold border px-4 py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-white mt-12 "
+                  className="text-xs font-semibold border px-4 py-2 rounded-full hover:text-purple-600 hover:border-purple-600 text-white "
                 >
                   Open App
                 </a>
