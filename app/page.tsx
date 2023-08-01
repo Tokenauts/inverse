@@ -65,7 +65,7 @@ export default function Home() {
         <SwitchFeature />
         <Bug />
         <Stats />
-        {/* <Banner /> */}
+        <Banner />
 
         <Governance />
         <Security />
